@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Saya</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f4f4f4;
+      }
+      header {
+        background: #0077b6;
+        color: #fff;
+        padding: 40px 0;
+        text-align: center;
+      }
+      nav {
+        background: #023e8a;
+        padding: 10px 0;
+      }
+      nav a {
+        color: #fff;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      section {
+        max-width: 900px;
+        margin: 30px auto;
+        background: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      }
+      h2 {
+        color: #0077b6;
+      }
+      .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+      }
+      .project {
+        background: #e9ecef;
+        padding: 20px;
+        border-radius: 6px;
+      }
+      footer {
+        text-align: center;
+        padding: 20px 0;
+        background: #023e8a;
+        color: #fff;
+        margin-top: 40px;
+      }
+      img.profile {
+        width: 120px;
+        border-radius: 50%;
+        margin-bottom: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="/src/zata.png" alt="Foto Profil" class="profile" />
+      <h1>Zatadina</h1>
+      <p>Web Developer | UI/UX Enthusiast</p>
+    </header>
+    <nav>
+      <a href="#about">Tentang Saya</a>
+      <a href="#projects">Proyek</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+    <section id="about">
+      <h2>Tentang Saya</h2>
+      <p>
+        Saya adalah seorang web developer yang bersemangat dalam membangun
+        website interaktif dan responsif. Saya memiliki pengalaman dalam HTML,
+        CSS, dan JavaScript serta tertarik pada desain UI/UX yang menarik.
+      </p>
+    </section>
+    <section id="projects">
+      <h2>Proyek</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>Website Toko Online</h3>
+          <p>
+            Membangun website e-commerce sederhana menggunakan HTML, CSS, dan
+            JavaScript.
+          </p>
+        </div>
+        <div class="project">
+          <h3>Landing Page Portfolio</h3>
+          <p>
+            Desain landing page untuk portofolio pribadi dengan tampilan modern
+            dan responsif.
+          </p>
+        </div>
+        <div class="project">
+          <h3>Aplikasi To-Do List</h3>
+          <p>Membuat aplikasi manajemen tugas harian berbasis web.</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Kontak</h2>
+      <p>Email: zatadina@email.com</p>
+      <p>
+        LinkedIn:
+        <a href="https://linkedin.com/in/zatadina" target="_blank"
+          >linkedin.com/in/zatadina</a
+        >
+      </p>
+    </section>
+    <footer>&copy; 2024 Zatadina. All rights reserved.</footer>
+  </body>
+</html>
